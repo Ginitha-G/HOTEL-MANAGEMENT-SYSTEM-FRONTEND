@@ -1,0 +1,126 @@
+/* serviceRequests.css */
+
+/* General container styles */
+.container {
+  width: 90%;
+  max-height: 1500px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+/* New Request button styling */
+button.ant-btn-primary {
+  background-color: #61d74f;
+  border-color: #3cdc49;
+  height: 45px;
+  font-size: 16px;
+  padding: 0 20px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 5px;
+}
+
+button.ant-btn-primary:hover {
+  background-color: #55dc7d;
+  border-color: #2cd35e;
+}
+
+/* Modal form input fields */
+.ant-modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ant-form-item-label > label {
+  font-size: 1rem;
+  font-weight: bold;
+  max-height: 1500px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ant-input,
+.ant-radio-group {
+  font-size: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ant-form-item {
+  margin-bottom: 20px;
+}
+
+.ant-modal-footer {
+  text-align: right;
+}
+
+/* Table styling */
+.ant-table {
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+}
+
+.ant-table-thead > tr > th {
+  background-color: #fafafa;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ant-table-tbody > tr > td {
+  font-size: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ant-table-empty .ant-table-placeholder {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #999;
+}
+
+/* Styling for the status column to show pointer when hovered */
+.ant-table-tbody td span {
+  color: #5f4de8;
+}
+
+.ant-table-tbody td span:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 1rem;
+  }
+
+  button.ant-btn-primary {
+    font-size: 14px;
+  }
+
+  .ant-modal-title {
+    font-size: 1.25rem;
+  }
+
+  .ant-table-thead > tr > th, 
+  .ant-table-tbody > tr > td {
+    font-size: 0.9rem;
+  }
+}
